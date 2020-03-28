@@ -1,0 +1,28 @@
+div#area{
+    font: normal 20pt Arial;
+    background-color: rgb(36, 150, 36);
+    color: white;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+}
+div#area1{
+    font: normal 18pt Arial;
+    background: yellow;
+    color: tomato;
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+}
+input{
+    color: tomato;
+}
+#res{
+    color: violet;
+    text-align: center;
+    margin-top: 10px;
+    border: 1px solid rebeccapurple;
+}

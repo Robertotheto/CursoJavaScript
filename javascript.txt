@@ -1,0 +1,41 @@
+## Comando typeof ##
+typeof 6 = 'number'
+typeof 6.5 = 'number'
+typeof '6.5' = 'string'
+typeof [] = object
+typeof {} = object
+typeof function(){} = function
+typeof NaN = 'number'
+typeof Infinity = 'number'
+typeof null = object
+
+
+##Concatenação##
+nome = 'roberto'
+idade = 36
+nota = 7
+'O aluno'+ nome + 'com' + idade + 'anos tirou a nota' + nota
+
+##Template String##
+`O aluno ${nome} com ${idade} anos tirou a nota: ${nota}`
+
+##Converção de NUmeros##
+var n1 = 1545.5
+n1.toFixed(2)
+'1545.50'
+n1.toFixed(2).replace('.',',')
+'1545,50'
+n1.toLocaleString('pt-Br', {style:'current', current:'BRL'})
+'R$ 1,545.50'
+
+##Relacionamentos Ternarios##
+
+var z = 8
+var res = z%2 == 0 ? 5:9
+z '8'
+res '5'
+
+var idade = 19
+var res = idade >= 18 ? 'maior':'menor'
+idade '19'
+res 'maior'
